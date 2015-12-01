@@ -8,6 +8,5 @@ $(function(){
          $("#navbar").toggleClass("active");
         $(".container.active").removeClass("active");
         $("div[date-page*="+$(this).attr("data-navigate")+"]").addClass("active");
-        
     });
 });
