@@ -5,7 +5,7 @@ $(function(){
     
     $("[id^=navigate_]").click(function(){
         console.log($(this).attr("data-navigate"));
-         $("#navbar").toggleClass("active");
+         $("#navbar").removeClass("active");
         $(".container.active").removeClass("active");
         $("div[date-page*="+$(this).attr("data-navigate")+"]").addClass("active");
     });

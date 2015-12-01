@@ -99,10 +99,26 @@ body{
     list-style: none;
     font-size: 18px;
     width: 100%;
-    padding: 7vh 20px;
+    padding: 7vh 0px 7px 20px;
     height: 20vh;
     box-sizing: border-box;
 }
+.actions ul li.row-40{
+	height: 40vh;
+}
+.actions ul li.row-30{
+	height: 30vh;
+}
+.actions ul li.row-10{
+	height: 10vh;
+}
+.actions ul li.row-50{
+	height: 20vh;
+}
+.actions ul li.row-60{
+	height: 60vh;
+}
+
 .actions ul li:hover, .actions ul li:nth-of-type(odd):hover{
     background-color: #37474F;
 }
@@ -130,4 +146,16 @@ body{
 }
 .color-gold{
     color: gold;
+}
+
+/*Form*/
+input[type="text"]{
+    padding: 5px 10px;
+    width: 60vw;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fefefe;
+    color: #fefefe;
+    outline: none;
 }

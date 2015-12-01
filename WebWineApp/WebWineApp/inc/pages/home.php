@@ -9,7 +9,7 @@
    </div>
    <div class="actions">
        <ul>
-            <li>
+            <li id="navigate_share_wine" data-navigate="share_wine">
                 <div class="action-icon">
                    <i class="fa fa-share fa-2x fa-fw"></i>
                 </div>
