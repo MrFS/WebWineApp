@@ -242,7 +242,7 @@ textarea{
     overflow: hidden;
     border-radius: 3px;
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
 }
 
 .wineCard .header {
