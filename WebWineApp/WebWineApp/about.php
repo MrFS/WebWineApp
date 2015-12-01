@@ -50,24 +50,48 @@
 </head>
 <body>
     <div class="navbar" id="navbar">
-        <ul>
-            <li class="home"><i class="fa fa-arrow-left"></i></li>
-            <li id="navigate_home" data-navigate="home"><i class="fa fa-glass"></i> Home</li>
-            <li id="navigate_popular" data-navigate="popular"><i class="fa fa-comment"></i> Popular</li>
-            <li id="navigate_top" data-navigate="top"><i class="fa fa-line-chart"></i> Top</li>
-            <li id="navigate_profile" data-navigate="profile"><i class="fa fa-user"></i> Profile</li>
-            <li id="navigate_settings" data-navigate="settings"><i class="fa fa-cog"></i> Settings</li>
-            <li id="navigate_logout" data-navigate="logout"><i class="fa fa-sign-out"></i> Log out</li>
-        </ul>
-    </div>
+          <ul>
+              <li class="home"><i class="fa fa-arrow-left"></i></li>
+              <li id="navigate_home" data-navigate="home"><i class="fa fa-glass"></i> Home</li>
+              <li id="navigate_popular" data-navigate="popular"><i class="fa fa-comment"></i> Popular</li>
+              <li id="navigate_top" data-navigate="top"><i class="fa fa-line-chart"></i> Top</li>
+              <li id="navigate_profile" data-navigate="profile"><i class="fa fa-user"></i> Profile</li>
+              <li id="navigate_settings" data-navigate="settings"><i class="fa fa-cog"></i> Settings</li>
+              <li id="navigate_logout" data-navigate="logout"><i class="fa fa-sign-out"></i> Log out</li>
+          </ul>
+      </div>
 
-    <div class="overlay">
+       <?php include("inc/pages/all.php") ?>
+
+    <div class="overlay agne">
         <div class="row">
             <div class="col s12 m7">
                 <div class="card">
                     <div class="card-image">
                         <img src="img/sample-1.jpg">
                         <span class="card-title">Agne Ødegaard</span>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="overlay fs">
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/sample-1.jpg">
+                        <span class="card-title">Joachim F. Stamnes</span>
                     </div>
                     <div class="card-content">
                         <p>
