@@ -4,11 +4,6 @@
     position:absolute;
 }
 
-.fs{
-    float: right;
-}
-
-
 .mdi-action-credit-card:before {
   content: "\e61f"; }
 

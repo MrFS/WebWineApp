@@ -69,74 +69,52 @@
             <h1>WineCask</h1>
         </div>
    </div>
-   <div class="actions">
-       <ul>
-            <li id="navigate_share_wine">
-                <div class="action-icon">
-                   <i class="fa fa-share fa-2x fa-fw"></i>
-                </div>
-            </li>
-            <li>
-                <div class="action-icon">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-glass fa-2x fa-fw fa-stack-2x"></i>
-                        <i class="fa fa-star fa-lg fa-fw fa-stack-1x color-gold" style="margin-top: -22px;"></i>
-                    </span>
-
-                </div>
-            </li>
-            <li>
-                <div class="action-icon">
-                   <i class="fa fa-glass fa-2x fa-fw"></i>
-                </div>
-       </ul>
-   </div>
 </div>
-    <div class="overlay">
-        <div class="row agne">
-            <div class="col s12 m7">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/about/Orangee_Avatar.png">
-                        <span class="card-title">Agne Ødegaard</span>
-                    </div>
-                    <div class="card-content">
-                        <p>
-                            Born 1994, likes ball and coding.
-                            Currently studying WebDev @NTNU Gjøvik
-                        </p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Personal Website</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-	<div class="overlay" style="position: absolute; left: 30vh;">
-        <div class="row fs">
-            <div class="col s12 m7">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/about/fs.jpg">
-                        <span class="card-title">Joachim F. Stamnes</span>
-                    </div>
-                    <div class="card-content">
-                        <p>
-                            Born 1994, likes ball and coding.
-                            Currently studying Bachelor of Science - Operation of computer systems @NTNU Trondheim
-                            
-                        </p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Personal Website</a>
+        <div class="overlay" style="margin-top: 40vh;">
+            <div class="row">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/about/Orangee_Avatar.png">
+                            <span class="card-title">Agne Ødegaard</span>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Born 1994, likes ball and coding.
+                                Currently studying WebDev @NTNU Gjøvik
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Personal Website</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
+        <div class="overlay" style="position: absolute; left: 30vh; margin-top: 40vh;">
+            <div class="row">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/about/fs.jpg">
+                            <span class="card-title">Joachim F. Stamnes</span>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Born 1994, likes ball and coding.
+                                Currently studying Bachelor of Science - Operation of computer systems @NTNU Trondheim
+
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Personal Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/main.js"></script>
 </body>
