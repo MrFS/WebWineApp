@@ -85,7 +85,7 @@
         </div>
     </div>
 
-	<div class="overlay" style="position: absolute; top: 50vh;">
+	<div class="overlay" style="position: absolute; left: 30vh;">
         <div class="row fs">
             <div class="col s12 m7">
                 <div class="card">
@@ -95,7 +95,9 @@
                     </div>
                     <div class="card-content">
                         <p>
-                            Born 1994, likes 
+                            Born 1994, likes ball and coding.
+                            Currently studying Bachelor of Science - Operation of computer systems @NTNU Trondheim
+                            
                         </p>
                     </div>
                     <div class="card-action">
