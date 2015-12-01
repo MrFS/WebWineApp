@@ -60,9 +60,38 @@
               <li id="navigate_logout" data-navigate="logout"><i class="fa fa-sign-out"></i> Log out</li>
           </ul>
       </div>
+<div class="container active" date-page="page_home">
+   <div class="heroContainer">
+        <div class="menu">
+            <i class="fa fa-bars fa-lg fa-fw color-white"></i>
+        </div>
+        <div class="page-header">
+            <h1>WineCask</h1>
+        </div>
+   </div>
+   <div class="actions">
+       <ul>
+            <li id="navigate_share_wine">
+                <div class="action-icon">
+                   <i class="fa fa-share fa-2x fa-fw"></i>
+                </div>
+            </li>
+            <li>
+                <div class="action-icon">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-glass fa-2x fa-fw fa-stack-2x"></i>
+                        <i class="fa fa-star fa-lg fa-fw fa-stack-1x color-gold" style="margin-top: -22px;"></i>
+                    </span>
 
-       <?php include("inc/pages/all.php") ?>
-
+                </div>
+            </li>
+            <li>
+                <div class="action-icon">
+                   <i class="fa fa-glass fa-2x fa-fw"></i>
+                </div>
+       </ul>
+   </div>
+</div>
     <div class="overlay">
         <div class="row agne">
             <div class="col s12 m7">
