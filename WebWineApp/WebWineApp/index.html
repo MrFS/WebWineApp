@@ -9,18 +9,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!--   Chrome on Andriod Theme Color in hex-->
-        <meta name="theme-color" content="#ff8800">
+        <meta name="theme-color" content="#546E7A">
 
+    <!--   Andriod Mobile web app meta tags -->
+        <meta name="mobile-web-app-capable" content="yes">
+        
     <!--   iPhone Web App meta tags-->
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
         
+    <!--   Make the app title different than the page title. -->
+        <meta name="apple-mobile-web-app-title" content="WineCask">
+    
+    <!--   Safari, iPhone and iPad home screen icons and Andriod-->
         <link rel="apple-touch-icon" href="img/icons/iphone76.png">
         <link rel="apple-touch-icon" sizes="76x76" href="img/icons/iphone76.png">
         <link rel="apple-touch-icon" sizes="120x120" href="img/icons/iphone120.png">
         <link rel="apple-touch-icon" sizes="152x152" href="img/icons/iphone152.png">
-   
-       <link rel="apple-touch-startup-image" href="img/WineHeroImage.jpg">
+        
+        <link rel="icon" sizes="192x192" href="img/icons/iphone152.png">
+        <link rel="icon" sizes="152x152" href="img/icons/iphone152.png">
+        <link rel="icon" sizes="120x120" href="img/icons/iphone120.png">
+        <link rel="icon" sizes="76x76" href="img/icons/iphone76.png">
+  
+    <!--   App loading screen --->
+        <link rel="apple-touch-startup-image" href="img/WineHeroImage.jpg">
    
     <!--   Google Fonts: Josefin Sans + Open Sans-->
         <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,600|Open+Sans:300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
@@ -45,231 +59,11 @@
               <li id="navigate_logout" data-navigate="logout"><i class="fa fa-sign-out"></i> Log out</li>
           </ul>
       </div>
-       <div class="container active" date-page="page_home">
-           <div class="heroContainer">
-                <div class="menu">
-                    <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>
-                </div>
-                <div class="page-header">
-                    <h1>WineCask</h1>
-                </div>
-           </div>
-           <div class="actions">
-               <ul>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-share fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Share  Wine
-                            <small>Submit new wine for all your followers</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-glass fa-2x fa-fw fa-stack-2x"></i>
-                                <i class="fa fa-star fa-lg fa-fw fa-stack-1x color-gold" style="margin-top: -22px;"></i>
-                            </span>
-                           
-                        </div>
-                        <div class="action">
-                            Save a Wine
-                            <small>Submit new wine to your private collection</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-glass fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Browse Followers
-                            <small>Look what your friends like</small>
-                        </div>
-                    </li>
-               </ul>
-           </div>
-       </div>
-       <div class="container" date-page="page_profile">
-           <div class="heroContainer hero2">
-                <div class="menu">
-                    <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>
-                </div>
-                <div class="page-header">
-                    <h1>Profile</h1>
-                </div>
-           </div>
-           <div class="actions">
-               <ul>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-share fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Testing
-                            <small>Submit new wine for all your followers</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-glass fa-2x fa-fw fa-stack-2x"></i>
-                                <i class="fa fa-star fa-lg fa-fw fa-stack-1x color-gold" style="margin-top: -22px;"></i>
-                            </span>
-                           
-                        </div>
-                        <div class="action">
-                            Save a Wine
-                            <small>Submit new wine to your private collection</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-glass fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Browse Followers
-                            <small>Look what your friends like</small>
-                        </div>
-                    </li>
-               </ul>
-           </div>
-       </div>
-       <div class="container" date-page="page_settings">
-           <div class="heroContainer hero2">
-                <div class="menu">
-                    <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>
-                </div>
-                <div class="page-header">
-                    <h1><i class="fa fa-cog"></i> Settings</h1>
-                </div>
-           </div>
-           <div class="actions">
-               <ul>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-share fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Yes
-                            <small>Submit new wine for all your followers</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-glass fa-2x fa-fw fa-stack-2x"></i>
-                                <i class="fa fa-star fa-lg fa-fw fa-stack-1x color-gold" style="margin-top: -22px;"></i>
-                            </span>
-                           
-                        </div>
-                        <div class="action">
-                            more  Wine
-                            <small>Submit new wine to your private collection</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-glass fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Browse Followers
-                            <small>Look what your friends like</small>
-                        </div>
-                    </li>
-               </ul>
-           </div>
-       </div>
-       <div class="container" date-page="page_popular">
-           <div class="heroContainer hero2">
-                <div class="menu">
-                    <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>
-                </div>
-                <div class="page-header">
-                    <h1><i class="fa fa-cog"></i> Popular</h1>
-                </div>
-           </div>
-           <div class="actions">
-               <ul>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-share fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Yes
-                            <small>Submit new wine for all your followers</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-glass fa-2x fa-fw fa-stack-2x"></i>
-                                <i class="fa fa-star fa-lg fa-fw fa-stack-1x color-gold" style="margin-top: -22px;"></i>
-                            </span>
-                           
-                        </div>
-                        <div class="action">
-                            more  Wine
-                            <small>Submit new wine to your private collection</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-glass fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Browse Followers
-                            <small>Look what your friends like</small>
-                        </div>
-                    </li>
-               </ul>
-           </div>
-       </div>
-       <div class="container" date-page="page_top">
-           <div class="heroContainer hero2">
-                <div class="menu">
-                    <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>
-                </div>
-                <div class="page-header">
-                    <h1>Top Wines</h1>
-                </div>
-           </div>
-           <div class="actions">
-               <ul>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-share fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Yes
-                            <small>Submit new wine for all your followers</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-glass fa-2x fa-fw fa-stack-2x"></i>
-                                <i class="fa fa-star fa-lg fa-fw fa-stack-1x color-gold" style="margin-top: -22px;"></i>
-                            </span>
-                           
-                        </div>
-                        <div class="action">
-                            more  Wine
-                            <small>Submit new wine to your private collection</small>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="action-icon">
-                           <i class="fa fa-glass fa-2x fa-fw"></i>
-                        </div>
-                        <div class="action">
-                            Browse Followers
-                            <small>Look what your friends like</small>
-                        </div>
-                    </li>
-               </ul>
-           </div>
-       </div>
+       
+       
+       
+       
+       
        <script src="js/jquery-2.1.4.min.js"></script>
        <script src="js/main.js"></script>
     </body>

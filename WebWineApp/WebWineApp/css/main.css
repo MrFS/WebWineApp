@@ -46,6 +46,11 @@ body{
     margin-left: -100vw;
     background-color: #546E7A;
     box-shadow: 5px 0px 50px 0px rgba(0, 0, 0, .5);
+    border-right: 2px solid #37474F;
+    
+/*  Get mobiles to use more CPU so the transitions is smoother*/
+    -webkit-transform-z: 0;
+    transform-z: 0;
     
     -webkit-transition: margin-left .2s linear;
             transition: margin-left .2s linear;
