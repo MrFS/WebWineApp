@@ -60,16 +60,7 @@
               <li id="navigate_logout" data-navigate="logout"><i class="fa fa-sign-out"></i> Log out</li>
           </ul>
       </div>
-<div class="container active" date-page="page_home">
-   <div class="heroContainer">
-        <div class="menu">
-            <i class="fa fa-bars fa-lg fa-fw color-white"></i>
-        </div>
-        <div class="page-header">
-            <h1>WineCask</h1>
-        </div>
-   </div>
-</div>
+<!--
         <div class="overlay" style="margin-top: 40vh;">
             <div class="row">
                 <div class="col s12 m7">
@@ -114,6 +105,41 @@
                 </div>
             </div>
         </div>
+-->
+       
+<div class="container active" date-page="page_about">
+   <div class="heroContainer">
+        <div class="menu">
+            <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>
+        </div>
+        <div class="page-header">
+            <h1>WineCask</h1>
+        </div>
+   </div>
+   <div class="actions">
+       <ul>
+            <li class="static row-30">
+                <img src="img/about/Orangee_Avatar.png">
+                <span class="card-title">Agne Ødegaard</span>
+                <p>
+                    Born 1994, likes ball and coding.
+                    Currently studying WebDev @NTNU Gjøvik
+                </p>
+                <a href="#">Personal Website</a>
+            </li>
+            <li class="static row-30">
+                <img src="img/about/fs.jpg">
+                <span class="card-title">Joachim F. Stamnes</span>
+                <p>
+                    Born 1994, likes ball and coding.
+                    Currently studying Bachelor of Science - Operation of computer systems @NTNU Trondheim
+
+                </p>
+                <a href="#">Personal Website</a>
+            </li>
+       </ul>
+   </div>
+</div>
         
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/main.js"></script>
