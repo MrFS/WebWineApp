@@ -1,4 +1,4 @@
-<div class="container" date-page="page_share_wine">
+<div class="container padding" date-page="page_share_wine">
    <div class="navbar-menu">
         <div class="menu">
             <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>

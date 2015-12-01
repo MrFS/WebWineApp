@@ -348,7 +348,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "WebWineApp",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "pencil_blue"
+	"iconImageName": "meme-lotr"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
@@ -493,7 +493,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "winecask\/",
+	"externalServerAddress": "localhost\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

@@ -38,9 +38,10 @@ body{
 }
 .heroContainer.hero1 {
 	background-image: url(../img/winecaskbottle.png);
-    background-size: contain;
-    background-position: 0px 0px;
-    background-color: #d33030;
+    background-size: 50%;
+    background-position: 0px 70%;
+    background-color: #9575CD;
+    background-repeat: no-repeat;
 }
 
 .heroContainer .page-header {
@@ -56,9 +57,8 @@ body{
     height: 100vh;
     float: left;
     margin-left: -70vw;
-    background-color: #546E7A;
+    background-color: #2a1d34;
     box-shadow: 5px 0px 50px 0px rgba(0, 0, 0, .5);
-    border-right: 2px solid #37474F;
     position: fixed;
     top: 0px;
     z-index: 2;
@@ -87,14 +87,14 @@ body{
     color: #fefefe;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #455A64;
+    background-color: #2a1d34;
     cursor: pointer;
 }
 .navbar ul li:hover, .navbar ul li:nth-of-type(odd):hover{
-    background-color: #37474F;
+    background-color: #201728;
 }
 .navbar ul li:nth-of-type(odd){
-    background-color: #546E7A;
+    background-color: #3a2949;
 }
 
 .menu{
