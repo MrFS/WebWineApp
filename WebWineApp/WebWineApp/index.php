@@ -59,8 +59,7 @@
               <li id="navigate_logout" data-navigate="logout"><i class="fa fa-sign-out"></i> Log out</li>
           </ul>
       </div>
-       
-       
+       <?php include("inc/pages/all.php") ?>
        
        
        
