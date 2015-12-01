@@ -20,11 +20,7 @@
             </li>
             <li>
                 <div class="action-icon">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-glass fa-2x fa-fw fa-stack-2x"></i>
-                        <i class="fa fa-star fa-lg fa-fw fa-stack-1x color-gold" style="margin-top: -22px;"></i>
-                    </span>
-
+                    <img src="img/fav.svg" alt="">
                 </div>
                 <div class="action">
                     Save a Wine
@@ -33,7 +29,7 @@
             </li>
             <li>
                 <div class="action-icon">
-                   <i class="fa fa-glass fa-2x fa-fw"></i>
+                   <img src="img/glass.svg" alt="">
                 </div>
                 <div class="action">
                     Browse Followers

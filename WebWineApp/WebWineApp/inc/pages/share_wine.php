@@ -31,18 +31,19 @@
                     </small>
                 </div>
             </li>
-            <li class="static row-15">
+            <li class="static row-10">
                <div class="action">
                    <small>Tags (comma seperated)</small>
                    <small><input type="text" value="" placeholder=""></small>
                 </div>
             </li>
-             <li class="static row-10">
-                <div class="action">
-                    <label class="btn">
-                        Submit Wine
-                    </label>
-                </div>
+             <li class="static row-15">
+                <label class="btn" id="navigate_home2" data-navigate="home">
+                    Cancle
+                </label>
+                <label class="btn">
+                    Submit Wine
+                </label>
             </li>
        </ul>
    </div>

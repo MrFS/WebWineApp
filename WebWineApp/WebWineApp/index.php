@@ -23,15 +23,15 @@
         <meta name="apple-mobile-web-app-title" content="WineCask">
     
     <!--   Safari, iPhone and iPad home screen icons and Andriod-->
-        <link rel="apple-touch-icon" href="img/icons/iphone76.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="img/icons/iphone76.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="img/icons/iphone120.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="img/icons/iphone152.png">
+        <link rel="apple-touch-icon" href="img/icons/winecask.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/icons/winecask.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/icons/winecask.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/icons/winecask.png">
         
-        <link rel="icon" sizes="192x192" href="img/icons/iphone152.png">
-        <link rel="icon" sizes="152x152" href="img/icons/iphone152.png">
-        <link rel="icon" sizes="120x120" href="img/icons/iphone120.png">
-        <link rel="icon" sizes="76x76" href="img/icons/iphone76.png">
+        <link rel="icon" sizes="192x192" href="img/icons/winecask.png">
+        <link rel="icon" sizes="152x152" href="img/icons/winecask.png">
+        <link rel="icon" sizes="120x120" href="img/icons/winecask.png">
+        <link rel="icon" sizes="76x76" href="img/icons/winecask.png">
   
     <!--   App loading screen --->
         <link rel="apple-touch-startup-image" href="img/WineHeroImage.jpg">
