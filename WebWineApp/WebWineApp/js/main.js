@@ -10,8 +10,8 @@ $(function(){
         $("div[date-page*="+$(this).attr("data-navigate")+"]").addClass("active");
     });
     
-     $('body').on('touchmove', function (e) {
-         if (!$('.scrollable').has($(e.target)).length) e.preventDefault();
-    });
+//     $('body').on('touchmove', function (e) {
+//         if (!$('.scrollable').has($(e.target)).length) e.preventDefault();
+//    });
 });
 

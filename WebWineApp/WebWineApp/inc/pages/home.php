@@ -32,8 +32,8 @@
                    <img src="img/glass.svg" alt="">
                 </div>
                 <div class="action">
-                    Browse Followers
-                    <small>Look what your friends like</small>
+                    Browse
+                    <small>Browse Wines</small>
                 </div>
             </li>
        </ul>
