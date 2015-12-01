@@ -1,5 +1,5 @@
-<div class="container active" date-page="page_home">
-   <div class="heroContainer">
+<div class="container " date-page="page_home">
+   <div class="heroContainer hero1">
         <div class="menu">
             <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>
         </div>
@@ -27,7 +27,7 @@
                     <small>Submit new wine to your private collection</small>
                 </div>
             </li>
-            <li>
+            <li id="navigate_browse" data-navigate="browse">
                 <div class="action-icon">
                    <img src="img/glass.svg" alt="">
                 </div>

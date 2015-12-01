@@ -29,6 +29,10 @@ body{
 .heroContainer.hero2 {
 	background-image: url(../img/hero2.jpg);
 }
+.heroContainer.hero1 {
+	background-image: url(../img/hero1.png);
+    background-color: #d33030;
+}
 
 .heroContainer .page-header {
 	font-size: 28px;
@@ -121,6 +125,15 @@ body{
 .actions ul li.row-60{
 	height: 60vh;
 }
+.actions ul li.row-70{
+	height: 70vh;
+}
+.actions ul li.row-80{
+	height: 80vh;
+}
+.actions ul li.row-90{
+	height: 90vh;
+}
 
 .actions ul li:not(.static):hover, .actions ul li:nth-of-type(odd):not(.static):hover{
     background-color: #37474F;
@@ -194,6 +207,17 @@ input[type="file"]{
 .btn:hover{
      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .2);
 }
+
+.btn-flat{
+    color: #3F51B5;
+    font-weight: bold;
+    font-family: "open sans", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
 textarea{
     max-height: 30vh;
     min-height: 30vh;
@@ -208,4 +232,37 @@ textarea{
 
 .agne{
     width: 45vw;
+}
+
+/*Wine Cards*/
+.wineCard{
+    width: 90vw;
+    background-color: #fefefe;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.wineCard .header {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+}
+
+.wineCard .content {
+	padding: 10px 20px;
+    color: #222222;
+}
+
+.wineCard .content h3{
+    margin: 0px 0px 10px 0px;
+}
+.wineCard .footer{
+    padding: 10px 20px;
+} 
+
+.scrollable{
+    overflow-y: scroll;
 }
