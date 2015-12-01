@@ -1,39 +1,47 @@
 <div class="container" date-page="page_share_wine">
-   <div class="heroContainer">
+   <div class="navbar-menu">
         <div class="menu">
             <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>
-        </div>
-        <div class="page-header">
-            <h1>Share Wine</h1>
+            <span class="menu-text">Share Wine</span>
         </div>
    </div>
    <div class="actions">
        <ul>
-            <li>
-                <div class="action-icon">
-                   <i class="fa fa-arrow-right fa-2x fa-fw"></i>
-                </div>
+            <li class="static row-15">
                 <div class="action">
-                   Title
-                   <small><input type="text" value=""></small>
+                  <small>Title</small>
+                   <small><input type="text" value="" placeholder=""></small>
                 </div>
             </li>
-            <li class="row-30">
-                <div class="action-icon">
-                    <i class="fa fa-arrow-right fa-2x fa-fw"></i>
-                </div>
+            <li class="static row-40">
                <div class="action">
-                   Title
-                   <small><input type="text" value=""></small>
+                   <small>Description (200)</small>
+                   <small>
+                       <textarea name="" id="" placeholder=""></textarea>
+                   </small>
                 </div>
             </li>
-            <li class="row-10">
-                 <div class="action-icon">
-                    <i class="fa fa-arrow-right fa-2x fa-fw"></i>
-                </div>
+            <li class="static row-10">
                <div class="action">
-                   Title
-                   <small><input type="text" value=""></small>
+                   <small>
+                        <label class="btn" for="imageUploader">
+                            Choose Image
+                           <input type="file" id="imageUploader" value="" placeholder="">
+                       </label>
+                    </small>
+                </div>
+            </li>
+            <li class="static row-15">
+               <div class="action">
+                   <small>Tags (comma seperated)</small>
+                   <small><input type="text" value="" placeholder=""></small>
+                </div>
+            </li>
+             <li class="static row-10">
+                <div class="action">
+                    <label class="btn">
+                        Submit Wine
+                    </label>
                 </div>
             </li>
        </ul>
