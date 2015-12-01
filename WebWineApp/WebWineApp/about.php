@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!--   Meta Tags -->
@@ -63,51 +63,48 @@
 
        <?php include("inc/pages/all.php") ?>
 
-    <div class="overlay agne">
-        <div class="row">
+    <div class="overlay">
+        <div class="row agne">
             <div class="col s12 m7">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/sample-1.jpg">
+                        <img src="img/about/Orangee_Avatar.png">
                         <span class="card-title">Agne Ødegaard</span>
                     </div>
                     <div class="card-content">
                         <p>
-                            I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.
+                            Born 1994, likes ball and coding.
+                            Currently studying WebDev @NTNU Gjøvik
                         </p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
+                        <a href="#">Personal Website</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-	<div class="overlay fs">
-        <div class="row">
+	<div class="overlay" style="position: absolute; top: 50vh;">
+        <div class="row fs">
             <div class="col s12 m7">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/sample-1.jpg">
+                        <img src="img/about/fs.jpg">
                         <span class="card-title">Joachim F. Stamnes</span>
                     </div>
                     <div class="card-content">
                         <p>
-                            I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.
+                            Born 1994, likes 
                         </p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
+                        <a href="#">Personal Website</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
 
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/main.js"></script>
