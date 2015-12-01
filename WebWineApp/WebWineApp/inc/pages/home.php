@@ -1,4 +1,4 @@
-<div class="container " date-page="page_home">
+<div class="container active" date-page="page_home">
    <div class="heroContainer hero1">
         <div class="menu">
             <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>

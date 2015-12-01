@@ -1,11 +1,8 @@
-<div class="container active" date-page="page_browse">
+<div class="container" date-page="page_browse">
    <div class="navbar-menu">
         <div class="menu">
             <i class="fa fa-bars fa-lg fa-fw color-white" id="menu"></i>
             <span class="menu-text">Browse</span>
-        </div>
-        <div class="page-header">
-            <h1>WineCask</h1>
         </div>
    </div>
    <div class="actions">
